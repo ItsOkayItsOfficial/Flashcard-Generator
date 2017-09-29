@@ -1,0 +1,27 @@
+{
+  "name": "flashcard-generator",
+  "version": "1.0.0",
+  "description": "Flashcard-Generator Homework for Week 11",
+  "main": "flashcard.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsOkayItsOfficial/Flashcard-Generator.git"
+  },
+  "keywords": [
+    "flashcard",
+    "flashcard",
+    "generator"
+  ],
+  "author": "Alex P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItsOkayItsOfficial/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/ItsOkayItsOfficial/Flashcard-Generator#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0"
+  }
+}
