@@ -1,14 +1,14 @@
 /*
-* Author: Alex P
-* Project Name: Flashcard-Generator ClozeCard.js
-* Version: 1
-* Date: 09/28/17
-* URL:  ./Flashcard-Generator
-*/
+ * Author: Alex P
+ * Project Name: Flashcard-Generator ClozeCard.js
+ * Version: 1
+ * Date: 09/28/17
+ * URL:  ./Flashcard-Generator
+ */
 
 // Constructor - Takes BasicCard and removes cloze from text
 let ClozeCard = function (text, cloze) {
-     if (this instanceof ClozeCard) {
+    if (this instanceof ClozeCard) {
         this.cloze = cloze;
         this.text = fullText;
         partial = text.replace(cloze, '...');
@@ -21,7 +21,6 @@ let ClozeCard = function (text, cloze) {
     }
 };
 
-
 module.exports = {
     ClozeCard
-}
+};
